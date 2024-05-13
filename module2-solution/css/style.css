@@ -1,51 +1,30 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0;
-    border: 0;
 }
-@media (min-width: 992px) {
-    section{
-        width: 30%;
-    }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    #firstSection{
-        width: 45%;
-    }
-    #secondSection{
-         width: 45%;
-     }
-    #thirdSection{
-        width: 97%;
-    }
-}
-@media (max-width: 767px) {
-    section{
-        width: 97%;
-    }
-}
-section{
-    float: left;
-    padding: 35px 10px 10px 10px;
-    border: 1px solid black;
-    position: relative;
-    margin: 15px 15px 15px 15px;
-    background-color: #d1d1e0;
-}
-.titles{
-    border: 1px solid black;
-    position: absolute;
-    background-color: green;
-    right: 0px;
-    top: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 3px;
-    width: 40%;
+#mainHeading {
     text-align: center;
+    font-family: Helvetica;
+    font-size: 200%;
 }
-#title1{
-    background-color: #cc33ff
+section {
+    padding: 15px;
+}
+div {
+    background-color: gray;
+    border: 1px solid black;
+}
+.titles {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+}
+#title1 {
+    background-color: #cc33ff;
 }
 #title2{
     background-color: #ffcc00
@@ -53,6 +32,34 @@ section{
 #title3{
     background-color: #00cc66
 }
-#mainHeading{
-    text-align: center;
+.content {
+    padding: 5px;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    padding: 45px 15px 15px 15px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
 }
