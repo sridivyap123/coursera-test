@@ -1,0 +1,42 @@
+
+
+.brand-name{
+    color: black !important;
+    font-size: 200%;
+    padding: 30px;
+}
+.navbar{
+    background-color: #777;
+    height: 90px;
+    margin: 0;
+}
+.navbar-toggle{
+    background-color: white;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+}
+.menu-item{
+    border: 3px solid black;
+    text-color: black;
+}
+
+.mainHeading{
+    text-align: center;
+}
+
+.boxSection{
+    background-color: #777;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.subHeading{
+    font-style: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.content{
+    font-size: 115%;
+}
